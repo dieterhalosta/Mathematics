@@ -15,8 +15,8 @@ public class App
         //logicalOp.countBetweenTwoNumbers();
         //logicalOp.oddNumbers();
 //        logicalOp.evenNumbers();
-        logicalOp.sumOfDigits();
-
+//        logicalOp.sumOfDigits();
+        logicalOp.averegeOfDigits();
 
 
     }
