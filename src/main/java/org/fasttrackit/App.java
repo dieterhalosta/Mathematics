@@ -11,7 +11,7 @@ public class App
 
         LogicalOp logicalOp = new LogicalOp();
         logicalOp.countToOneHundred(100);
-        logicalOp.countToOneHundred(-100);
+        //logicalOp.countToOneHundred(-100);
 
 
 
