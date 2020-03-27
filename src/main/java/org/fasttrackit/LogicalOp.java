@@ -56,4 +56,15 @@ public class LogicalOp {
             }
         }
     }
+
+    public int sumOfDigits(){
+        System.out.println("Please enter a number.");
+        int userNumberA = userInput.nextInt();
+        int total = 0;
+        for (int i = userNumberA; i <= 100; i++ ) {
+            total += i;
+        }
+        System.out.println(total);
+        return total;
+    }
 }

@@ -14,7 +14,8 @@ public class App
         //logicalOp.countToOneHundred(-100);
         //logicalOp.countBetweenTwoNumbers();
         //logicalOp.oddNumbers();
-        logicalOp.evenNumbers();
+//        logicalOp.evenNumbers();
+        logicalOp.sumOfDigits();
 
 
 
