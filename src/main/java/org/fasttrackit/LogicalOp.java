@@ -22,4 +22,21 @@ public class LogicalOp {
 
     }
 
+    public void countBetweenTwoNumbers() {
+        System.out.println("Please enter the first number.");
+        int userNumber1 = userInput.nextInt();
+        System.out.println("Please enter the second number.");
+        int userNUmber2 = userInput.nextInt();
+
+        if ( userNumber1 < userNUmber2) {
+            for ( int i = userNumber1; i < userNUmber2; i++) {
+                System.out.print(i + " ");
+            }
+        } else {
+            for (int i = userNumber1; i > userNUmber2; i--) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+
 }
