@@ -6,16 +6,16 @@ public class LogicalOp {
 
     Scanner userInput = new Scanner(System.in);
 
-    public void countToOneHundred() {
-        System.out.println("Please enter a number: ");
+    public void countToOneHundred(int toNumber) {
+        System.out.print("Please enter a number: ");
         int userNumber = userInput.nextInt();
 
-        if (userNumber < 100) {
-            for (int i = userNumber; i <= 100; i++) {
+        if (userNumber < toNumber) {
+            for (int i = userNumber; i <= toNumber; i++) {
                 System.out.print(i + " ");
             }
-        } else if ( userNumber > 100){
-            for (int i = userNumber; i >= 100; i--) {
+        } else if ( userNumber > toNumber){
+            for (int i = userNumber; i >= toNumber; i--) {
                 System.out.print(i + " ");
             }
         }

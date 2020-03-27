@@ -10,7 +10,10 @@ public class App
 //        math.multiply(8,4);
 
         LogicalOp logicalOp = new LogicalOp();
-        logicalOp.countToOneHundred();
+        logicalOp.countToOneHundred(100);
+        logicalOp.countToOneHundred(-100);
+
+
 
     }
 
