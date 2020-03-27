@@ -12,7 +12,9 @@ public class App
         LogicalOp logicalOp = new LogicalOp();
         //logicalOp.countToOneHundred(100);
         //logicalOp.countToOneHundred(-100);
-        logicalOp.countBetweenTwoNumbers();
+        //logicalOp.countBetweenTwoNumbers();
+        //logicalOp.oddNumbers();
+        logicalOp.evenNumbers();
 
 
 

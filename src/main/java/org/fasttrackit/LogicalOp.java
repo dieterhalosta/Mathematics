@@ -39,4 +39,21 @@ public class LogicalOp {
         }
     }
 
+    public void oddNumbers(){
+        System.out.print("The odd numbers are:");
+        for ( int i = 1; i <= 100 ; i++){
+            if(i % 2 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+
+    public void  evenNumbers() {
+        System.out.print("The even numbers are: ");
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
 }
