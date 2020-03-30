@@ -12,11 +12,11 @@ public class LogicalOp {
 
         if (userNumber < toNumber) {
             for (int i = userNumber; i <= toNumber; i++) {
-                System.out.print(i + " ");
+                System.out.println(i + " ");
             }
         } else if ( userNumber > toNumber){
             for (int i = userNumber; i >= toNumber; i--) {
-                System.out.print(i + " ");
+                System.out.println(i + " ");
             }
         }
 
@@ -68,25 +68,22 @@ public class LogicalOp {
         return total;
     }
 
-//    public void averegeOfDigits(){
-//        int n;double res=0;
-//
-//        System.out.println("enter how many numbers to cal  avg");
-//
-//        n=userInput.nextInt();
-//
-//        int a[]=new int[n];
-//
-//        System.out.println("enter   "+n+"  numbers");
-//
-//        for(int i=0;i<n;i++)
-//            a[i]=userInput.nextInt();
-//
-//        for(int i=0;i<n;i++)
-//            res =res+a[i];
-//
-//        System.out.println("average="+res/n);
-//    }
+    public int averageOfDigits(){
+
+        System.out.println("Please enter a number.");
+        int userNumberA = userInput.nextInt();
+        int total = 0;
+        int numberCount = 0;
+        int average = 0;
+        for (int i = userNumberA; i <= 100; i++ ) {
+            total += i;
+            numberCount++;
+            average = total/numberCount;
+        }
+        System.out.println("Average is: " + average);
+        return average;
+
+    }
 
     public void starsPrint() {
         for(int i = 7; i > 0; i--){

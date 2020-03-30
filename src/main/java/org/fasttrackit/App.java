@@ -10,14 +10,14 @@ public class App
 //        math.multiply(8,4);
 
         LogicalOp logicalOp = new LogicalOp();
-        //logicalOp.countToOneHundred(100);
-        //logicalOp.countToOneHundred(-100);
-        //logicalOp.countBetweenTwoNumbers();
-        //logicalOp.oddNumbers();
+//        logicalOp.countToOneHundred(100);
+//        logicalOp.countToOneHundred(-100);
+//        logicalOp.countBetweenTwoNumbers();
+//        logicalOp.oddNumbers();
 //        logicalOp.evenNumbers();
 //        logicalOp.sumOfDigits();
-//        logicalOp.averegeOfDigits();
-        logicalOp.starsPrint();
+//        logicalOp.averageOfDigits();
+//        logicalOp.starsPrint();
 
 
     }
