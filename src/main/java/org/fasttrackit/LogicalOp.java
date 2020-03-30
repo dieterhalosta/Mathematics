@@ -68,25 +68,33 @@ public class LogicalOp {
         return total;
     }
 
-    public void averegeOfDigits(){
-        int n;double res=0;
+//    public void averegeOfDigits(){
+//        int n;double res=0;
+//
+//        System.out.println("enter how many numbers to cal  avg");
+//
+//        n=userInput.nextInt();
+//
+//        int a[]=new int[n];
+//
+//        System.out.println("enter   "+n+"  numbers");
+//
+//        for(int i=0;i<n;i++)
+//            a[i]=userInput.nextInt();
+//
+//        for(int i=0;i<n;i++)
+//            res =res+a[i];
+//
+//        System.out.println("average="+res/n);
+//    }
 
-        System.out.println("enter how many numbers to cal  avg");
-
-        n=userInput.nextInt();
-
-        int a[]=new int[n];
-
-        System.out.println("enter   "+n+"  numbers");
-
-        for(int i=0;i<n;i++)
-            a[i]=userInput.nextInt();
-
-        for(int i=0;i<n;i++)
-            res =res+a[i];
-
-        System.out.println("average="+res/n);
+    public void starsPrint() {
+        for(int i = 7; i > 0; i--){
+            for(int j = 0; j < i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
-
 
 }

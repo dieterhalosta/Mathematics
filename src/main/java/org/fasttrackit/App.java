@@ -16,7 +16,8 @@ public class App
         //logicalOp.oddNumbers();
 //        logicalOp.evenNumbers();
 //        logicalOp.sumOfDigits();
-        logicalOp.averegeOfDigits();
+//        logicalOp.averegeOfDigits();
+        logicalOp.starsPrint();
 
 
     }
